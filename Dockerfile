@@ -1,4 +1,4 @@
-FROM python:3.8.6-alpine3.12
+FROM python:3.12.10-alpine3.21
 
 RUN apk update && apk add less
 RUN pip install rotate-backups==8.1
